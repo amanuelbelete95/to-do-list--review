@@ -65,8 +65,8 @@ addBtn.addEventListener('click', () => {
 const removeToDo = (element, elemenId) => {
   element.parentNode.parentNode.removeChild(element.parentNode);
   LIST[elemenId].trash = true;
-  const t = localStorage.getItem('TODO');
-  const parsedData = JSON.parse(t);
+  const localStorageData = localStorage.getItem('TODO');
+  const parsedData = JSON.parse(localStorageData);
   const data = parsedData[elemenId].id;
 
   const currentList = parsedData.filter((item) => item.id !== data);
