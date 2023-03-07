@@ -1,0 +1,70 @@
+body {
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 30px 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  font-style: italic;
+  height: 60px;
+  border: 1px solid grey;
+  width: 70%;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.add {
+  height: 60px;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.erase-section {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.erase {
+  font-size: 25px;
+  margin: 25px;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding-right: 280px;
+}
+
+.left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.left i {
+  cursor: pointer;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
